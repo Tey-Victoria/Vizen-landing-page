@@ -1,0 +1,44 @@
+// Landing page copy and links live here so the first draft is easy to tailor.
+// Confirm offer details, store information, and social URLs before publishing.
+export const landingContent = {
+  links: {
+    contact: 'https://t.me/vizenoptic',
+    instagram: 'https://instagram.com/vizenoptic.kh',
+    map: 'https://maps.google.com/?q=Vizen+Optic+Phnom+Penh',
+  },
+  hero: {
+    kicker: 'A fresh look for the season',
+    title: 'See yourself in',
+    accent: 'something new.',
+    description: 'Eyewear for the way you see the world. Find a pair that feels like you at Vizen Optic.',
+    note: 'A good fit starts with a good conversation.',
+    image: 'https://images.unsplash.com/photo-1574258495973-f010dfbb5371?auto=format&fit=crop&w=1500&q=85',
+    imageAlt: 'Woman trying on glasses in natural light',
+  },
+  collection: { intro: 'From a little playful to beautifully understated, explore a few styles we think you’ll love.' },
+  frames: [
+    { name: 'Gold Cat-Eye Frames', category: 'A little polished', description: 'A graceful shape with a bit of personality. Made for days when you want your frames to do the talking.', fit: 'Medium · Large', promo: '30% off*', image: 'https://images.unsplash.com/photo-1577803645773-f96470509666?auto=format&fit=crop&w=900&q=80', imageAlt: 'Gold eyewear frames styled on a table' },
+    { name: 'Oval Charm Frames', category: 'Easy everyday', description: 'A clean, simple silhouette that slips into your everyday rotation with ease.', fit: 'Medium · Large', promo: '30% off*', image: 'https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=900&q=80', imageAlt: 'Classic eyeglasses on a bright tabletop' },
+    { name: 'Ruby Round Frames', category: 'A timeless favorite', description: 'Round, lightweight, and comfortable. A familiar favorite with a little extra character.', fit: 'Medium · Large', promo: '30% off*', image: 'https://images.unsplash.com/photo-1508296695146-257a814070b4?auto=format&fit=crop&w=900&q=80', imageAlt: 'Round eyeglasses in a warm setting' },
+  ],
+  promo: {
+    title: 'A little something for your next pair.',
+    description: '*The Canva brief mentions 30% off. Offer dates, eligible styles, and conditions still need confirmation.',
+    cta: 'Ask about the offer',
+  },
+  social: {
+    description: 'Tag us in your Vizen frames and share your new look. We love seeing what you choose.',
+    handle: '@vizenoptic.kh',
+    image: 'https://images.unsplash.com/photo-1531058020387-3be344556be6?auto=format&fit=crop&w=1000&q=85',
+    imageAlt: 'A colorful eyewear and lifestyle collage',
+  },
+  visit: {
+    storeName: 'Vizen Optic',
+    description: 'Drop by, try on a few styles, and let our team help you find your fit.',
+    address: 'Phnom Penh, Cambodia · Add confirmed store address',
+    phone: '+855 12 770 889',
+    image: '/images/canva-brief-3.png',
+    imageAlt: 'Vizen Optic storefront shown in the Canva concept',
+  },
+  footer: 'Eyewear, your way. Find your style here.',
+};

@@ -17,14 +17,14 @@ export const landingContent = {
   },
   collection: { intro: 'From a little playful to beautifully understated, explore a few styles we think you’ll love.' },
   frames: [
-    { name: 'Gold Cat-Eye Frames', category: 'A little polished', description: 'A graceful shape with a bit of personality. Made for days when you want your frames to do the talking.', fit: 'Medium · Large', promo: '30% off*', image: 'https://images.unsplash.com/photo-1577803645773-f96470509666?auto=format&fit=crop&w=900&q=80', imageAlt: 'Gold eyewear frames styled on a table' },
-    { name: 'Oval Charm Frames', category: 'Easy everyday', description: 'A clean, simple silhouette that slips into your everyday rotation with ease.', fit: 'Medium · Large', promo: '30% off*', image: 'https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=900&q=80', imageAlt: 'Classic eyeglasses on a bright tabletop' },
-    { name: 'Ruby Round Frames', category: 'A timeless favorite', description: 'Round, lightweight, and comfortable. A familiar favorite with a little extra character.', fit: 'Medium · Large', promo: '30% off*', image: 'https://images.unsplash.com/photo-1508296695146-257a814070b4?auto=format&fit=crop&w=900&q=80', imageAlt: 'Round eyeglasses in a warm setting' },
+    { name: 'Gold Cat-Eye Frames', category: 'A little polished', description: 'A graceful shape with a bit of personality. Made for days when you want your frames to do the talking.', fit: 'Medium · Large', image: 'https://images.unsplash.com/photo-1577803645773-f96470509666?auto=format&fit=crop&w=900&q=80', imageAlt: 'Gold eyewear frames styled on a table' },
+    { name: 'Oval Charm Frames', category: 'Easy everyday', description: 'A clean, simple silhouette that slips into your everyday rotation with ease.', fit: 'Medium · Large', image: 'https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=900&q=80', imageAlt: 'Classic eyeglasses on a bright tabletop' },
+    { name: 'Ruby Round Frames', category: 'A timeless favorite', description: 'Round, lightweight, and comfortable. A familiar favorite with a little extra character.', fit: 'Medium · Large', image: 'https://images.unsplash.com/photo-1508296695146-257a814070b4?auto=format&fit=crop&w=900&q=80', imageAlt: 'Round eyeglasses in a warm setting' },
   ],
   promo: {
-    title: 'A little something for your next pair.',
-    description: '*The Canva brief mentions 30% off. Offer dates, eligible styles, and conditions still need confirmation.',
-    cta: 'Ask about the offer',
+    title: 'A little help finding your next pair.',
+    description: 'Tell us what you are looking for and our team can share suitable styles and current availability.',
+    cta: 'Ask us on Telegram',
   },
   social: {
     description: 'Tag us in your Vizen frames and share your new look. We love seeing what you choose.',
@@ -35,7 +35,7 @@ export const landingContent = {
   visit: {
     storeName: 'Vizen Optic',
     description: 'Drop by, try on a few styles, and let our team help you find your fit.',
-    address: 'Phnom Penh, Cambodia · Add confirmed store address',
+    address: 'Phnom Penh, Cambodia',
     phone: '+855 12 770 889',
     image: '/images/canva-brief-3.png',
     imageAlt: 'Vizen Optic storefront shown in the Canva concept',

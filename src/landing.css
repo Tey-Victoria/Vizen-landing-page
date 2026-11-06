@@ -1,0 +1,18 @@
+.site-header{position:relative;z-index:5}
+.mobile-nav{position:absolute;z-index:10;top:100%;left:0;right:0;display:flex;flex-direction:column;gap:0;padding:8px 22px 18px;background:#fffdf9;border-top:1px solid var(--line);box-shadow:0 14px 24px #3514081a}
+.mobile-nav a{padding:13px 4px;border-bottom:1px solid var(--line);font-size:13px;color:#705447}
+.mobile-nav .mobile-nav-cta{display:flex;align-items:center;justify-content:space-between;margin-top:8px;padding:14px 16px;background:var(--brown);color:#fffaf1;border:0}
+.fit-guide{padding-top:86px;padding-bottom:88px}
+.fit-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.fit-card{min-height:190px;padding:26px 24px;background:#f8f1e7;border:1px solid #f0e5d9;border-radius:10px}
+.fit-card>span{font-size:10px;letter-spacing:.16em;color:#a26749}
+.fit-card h3{margin:22px 0 9px;font-family:'Playfair Display',serif;font-size:23px;font-weight:500;color:var(--brown)}
+.fit-card p{margin:0;color:#80695e;font-size:12px;line-height:1.8}
+.fit-cta{display:inline-flex;align-items:center;gap:12px;margin-top:25px;padding:14px 18px;background:var(--brown);color:#fffaf1;border-radius:3px;font-size:11px;font-weight:700}
+.fit-cta:hover,.mobile-nav .mobile-nav-cta:hover{background:var(--brown-deep)}
+.header-cta,.button,.fit-cta,.mobile-nav a{min-height:44px}
+.header-cta:focus-visible,.button:focus-visible,.fit-cta:focus-visible,.mobile-menu:focus-visible,.mobile-nav a:focus-visible,a:focus-visible{outline:3px solid #b06d4d;outline-offset:3px}
+.frame-promo{max-width:calc(100% - 20px);white-space:normal}
+
+@media(max-width:900px){.fit-guide{padding-top:70px;padding-bottom:72px}.fit-grid{gap:14px}.fit-card{padding:22px 18px}}
+@media(max-width:640px){.hero{flex-direction:column}.hero-actions{align-items:flex-start;flex-direction:column;gap:13px}.hero-note{margin-top:25px}.fit-guide{padding:65px 20px 60px}.fit-grid{grid-template-columns:1fr;gap:12px}.fit-card{min-height:0;padding:20px}.fit-card h3{margin:14px 0 7px;font-size:21px}.fit-card p{font-size:11px}.fit-cta{width:100%;justify-content:space-between;margin-top:17px}.visit-actions{flex-wrap:wrap}.frame-actions{gap:8px}.frame-link{max-width:60%;line-height:1.4}.mobile-menu{min-width:44px;min-height:44px;display:flex;align-items:center;justify-content:center}}

@@ -7,7 +7,7 @@ export const storeInfo = {
   phone: "+855 23 888 919",
   phoneMobile: "+855 12 770 889",
   email: "concierge@vizenoptic.com",
-  telegram: "@vizenoptic",
+  telegram: "@vizenoptickh",
   instagram: "@vizenoptic.kh",
   hours: [
     { days: "Monday – Saturday", time: "09:00 AM – 08:00 PM" },

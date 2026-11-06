@@ -162,7 +162,7 @@ export default function ContactInquiry({ prefilledItem }) {
               </a>
 
               <a
-                href="https://t.me/vizenoptic"
+                href="https://t.me/vizenoptickh"
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center gap-3.5 p-3.5 rounded-xl bg-white border border-cream-200 hover:border-gold-400 text-forest-900 hover:text-gold-600 transition-all shadow-sm group"

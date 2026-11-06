@@ -43,7 +43,7 @@ export default function Footer() {
             {/* Social & Messaging links */}
             <div className="flex items-center gap-3 pt-3">
               <a
-                href="https://t.me/vizenoptic"
+                href="https://t.me/vizenoptickh"
                 target="_blank"
                 rel="noreferrer"
                 className="w-9 h-9 rounded-full bg-forest-900 border border-gold-500/30 flex items-center justify-center text-gold-400 hover:bg-gold-500 hover:text-forest-950 transition-colors"

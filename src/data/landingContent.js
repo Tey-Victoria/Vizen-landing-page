@@ -2,7 +2,7 @@
 // Confirm offer details, store information, and social URLs before publishing.
 export const landingContent = {
   links: {
-    contact: 'https://t.me/eyezenoptickh',
+    contact: 'https://t.me/vizenoptickh',
     instagram: 'https://instagram.com/vizenoptic.kh',
     tiktok: 'https://www.tiktok.com/@eyezen.optic',
     map: 'https://maps.google.com/?q=Vizen+Optic+Phnom+Penh',

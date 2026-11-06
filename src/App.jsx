@@ -64,7 +64,7 @@ export default function App() {
           <ContactLink className="fit-cta" location="fit_guide">Ask for a personal recommendation <ArrowUpRight size={16} /></ContactLink>
         </section>
 
-        <section className="season-note"><div><span className="eyebrow">Seasonal collection</span><h2>{content.promo.title}</h2><p>{content.promo.description}</p></div><ContactLink className="button button-dark" location="seasonal_offer">Ask us on Telegram <ArrowUpRight size={17} /></ContactLink></section>
+        <section className="season-note"><div><span className="eyebrow">Free gift with a qualifying purchase</span><h2>{content.promo.title}</h2><p>{content.promo.description}</p></div><ContactLink className="button button-dark" location="seasonal_offer">Ask us on Telegram <ArrowUpRight size={17} /></ContactLink></section>
 
         <section className="social-section" id="about"><div className="social-copy"><span className="eyebrow">Out in the world</span><h2>Snap, share,<br /><em>see you there.</em></h2><p>{content.social.description}</p><a className="social-link" href={content.links.instagram} target="_blank" rel="noreferrer"><Instagram size={18} /> {content.social.handle} <ArrowUpRight size={16} /></a></div><a className="social-image" href={content.links.instagram} target="_blank" rel="noreferrer"><img src={content.social.image} alt={content.social.imageAlt} loading="lazy" /><span>Follow along <ArrowUpRight size={16} /></span></a></section>
 

@@ -22,8 +22,8 @@ export const landingContent = {
     { name: 'Ruby Round Frames', category: 'A timeless favorite', description: 'Round, lightweight, and comfortable. A familiar favorite with a little extra character.', fit: 'Medium · Large', image: 'https://images.unsplash.com/photo-1508296695146-257a814070b4?auto=format&fit=crop&w=900&q=80', imageAlt: 'Round eyeglasses in a warm setting' },
   ],
   promo: {
-    title: 'A little help finding your next pair.',
-    description: 'Tell us what you are looking for and our team can share suitable styles and current availability.',
+    title: 'Spend $35 or more and receive free sunglasses.',
+    description: 'Offer valid November 3–13, 2026. No promo code needed.',
     cta: 'Ask us on Telegram',
   },
   social: {

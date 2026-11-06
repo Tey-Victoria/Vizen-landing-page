@@ -2,15 +2,16 @@
 // Confirm offer details, store information, and social URLs before publishing.
 export const landingContent = {
   links: {
-    contact: 'https://t.me/vizenoptic',
+    contact: 'https://t.me/eyezenoptickh',
     instagram: 'https://instagram.com/vizenoptic.kh',
+    tiktok: 'https://www.tiktok.com/@eyezen.optic',
     map: 'https://maps.google.com/?q=Vizen+Optic+Phnom+Penh',
   },
   hero: {
     kicker: 'A fresh look for the season',
     title: 'See yourself in',
     accent: 'something new.',
-    description: 'Eyewear for the way you see the world. Find a pair that feels like you at Vizen Optic.',
+    description: 'Glasses · Frames · Lenses. Discover the perfect pair for your unique lifestyle.',
     note: 'A good fit starts with a good conversation.',
     image: 'https://images.unsplash.com/photo-1574258495973-f010dfbb5371?auto=format&fit=crop&w=1500&q=85',
     imageAlt: 'Woman trying on glasses in natural light',
@@ -27,8 +28,8 @@ export const landingContent = {
     cta: 'Ask us on Telegram',
   },
   social: {
-    description: 'Tag us in your Vizen frames and share your new look. We love seeing what you choose.',
-    handle: '@vizenoptic.kh',
+    description: 'Follow Vizen Optic for glasses, frames, lenses, and eyewear inspiration.',
+    handle: '@eyezen.optic',
     image: 'https://images.unsplash.com/photo-1531058020387-3be344556be6?auto=format&fit=crop&w=1000&q=85',
     imageAlt: 'A colorful eyewear and lifestyle collage',
   },
@@ -36,7 +37,7 @@ export const landingContent = {
     storeName: 'Vizen Optic',
     description: 'Drop by, try on a few styles, and let our team help you find your fit.',
     address: 'Phnom Penh, Cambodia',
-    phone: '+855 12 770 889',
+    phone: '+855 16 515 118',
     image: '/images/canva-brief-3.png',
     imageAlt: 'Vizen Optic storefront shown in the Canva concept',
   },

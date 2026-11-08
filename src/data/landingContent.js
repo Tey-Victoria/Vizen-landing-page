@@ -6,7 +6,10 @@ export const landingContent = {
     instagram: 'https://www.instagram.com/vizenoptickh/',
     tiktok: 'https://www.tiktok.com/@vizen.optic',
     facebook: 'https://www.facebook.com/vizenoptickh',
-    map: 'https://maps.google.com/?q=Vizen+Optic+Phnom+Penh',
+    locations: [
+      { name: 'Location 1', url: 'https://maps.app.goo.gl/BC8preUHstPXn1ag9' },
+      { name: 'Location 2', url: 'https://maps.app.goo.gl/myFMFPoaZ2vqjvK77' },
+    ],
   },
   hero: {
     kicker: 'A fresh look for the season',

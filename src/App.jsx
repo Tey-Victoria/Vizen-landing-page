@@ -64,7 +64,17 @@ export default function App() {
           <ContactLink className="fit-cta" location="fit_guide">Ask for a personal recommendation <ArrowUpRight size={16} /></ContactLink>
         </section>
 
-        <section className="season-note"><div><span className="eyebrow">Free gift with a qualifying purchase</span><h2>{content.promo.title}</h2><p>{content.promo.description}</p></div><ContactLink className="button button-dark" location="seasonal_offer">Ask us on Telegram <ArrowUpRight size={17} /></ContactLink></section>
+        <section className="season-note">
+          <div className="season-content">
+            <span className="eyebrow">Free gift with a qualifying purchase</span>
+            <h2>{content.promo.title}</h2>
+            <p>{content.promo.description}</p>
+            <div className="season-gallery">
+              {content.promo.images.map((image) => <img key={image.src} src={image.src} alt={image.alt} loading="lazy" />)}
+            </div>
+          </div>
+          <ContactLink className="button button-dark" location="seasonal_offer">Ask us on Telegram <ArrowUpRight size={17} /></ContactLink>
+        </section>
 
         <section className="social-section" id="about">
           <div className="social-copy">

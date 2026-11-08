@@ -23,9 +23,14 @@ export const landingContent = {
     { name: 'Ruby Round Frames', category: 'A timeless favorite', description: 'Round, lightweight, and comfortable. A familiar favorite with a little extra character.', fit: 'Medium · Large', image: '/images/ruby-round-frames.jpg', imageAlt: 'Round black eyeglasses held in the store' },
   ],
   promo: {
-    title: 'Spend $35 or more and receive free sunglasses.',
+    title: 'Spend $35 or more and get a free pair of glasses.',
     description: 'Offer valid November 3–13, 2026. No promo code needed.',
     cta: 'Ask us on Telegram',
+    images: [
+      { src: '/images/promotion-glasses-1.jpg', alt: 'Sunglasses and eyeglasses included in the Vizen Optic promotion' },
+      { src: '/images/promotion-glasses-2.jpg', alt: 'Eyeglasses and pink sunglasses included in the Vizen Optic promotion' },
+      { src: '/images/promotion-glasses-3.jpg', alt: 'Eyeglasses and pink sunglasses displayed for the Vizen Optic promotion' },
+    ],
   },
   social: {
     description: 'Find Vizen Optic on TikTok and Instagram. Follow along, share your favorite frames, and tag us in your look.',

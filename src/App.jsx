@@ -78,6 +78,16 @@ export default function App() {
           </div>
         </section>
 
+        <section className="feedback-section section-wrap" id="feedback">
+          <div className="section-heading">
+            <div><span className="eyebrow">Customer feedback</span><h2>Kind words from <em>our customers.</em></h2></div>
+            <p>{content.feedback.description}</p>
+          </div>
+          <div className="feedback-grid">
+            {content.feedback.images.map((image) => <img key={image.src} src={image.src} alt={image.alt} loading="lazy" />)}
+          </div>
+        </section>
+
         <section className="social-section" id="about">
           <div className="social-copy">
             <span className="eyebrow">Out in the world</span>

@@ -34,6 +34,15 @@ export const landingContent = {
       { src: '/images/promotion-glasses-4.jpg', alt: 'Eyeglasses and sunglasses available in the Vizen Optic offer' },
     ],
   },
+  feedback: {
+    title: 'Kind words from our customers.',
+    description: 'Customer feedback and shared moments with Vizen Optic.',
+    images: [
+      { src: '/images/feedback-customer-1.png', alt: 'Customer chat screenshot in Khmer with delivery feedback' },
+      { src: '/images/feedback-customer-2.png', alt: 'Customer chat screenshot with a positive message for Vizen Optic' },
+      { src: '/images/feedback-customer-3.png', alt: 'Customer chat screenshot showing eyewear delivery and a thank-you' },
+    ],
+  },
   social: {
     description: 'Find Vizen Optic on TikTok, Instagram, and Facebook. Follow along, share your favorite frames, and tag us in your look.',
     handle: '@vizen.optic',

@@ -30,6 +30,8 @@ export const landingContent = {
       { src: '/images/promotion-glasses-1.jpg', alt: 'Sunglasses and eyeglasses included in the Vizen Optic promotion' },
       { src: '/images/promotion-glasses-2.jpg', alt: 'Eyeglasses and pink sunglasses included in the Vizen Optic promotion' },
       { src: '/images/promotion-glasses-3.jpg', alt: 'Eyeglasses and pink sunglasses displayed for the Vizen Optic promotion' },
+      { src: '/images/promotion-glasses-4.jpg', alt: 'Eyeglasses and sunglasses available in the Vizen Optic offer' },
+      { src: '/images/promotion-glasses-5.jpg', alt: 'Eyeglasses and sunglasses displayed for the Vizen Optic offer' },
     ],
   },
   social: {

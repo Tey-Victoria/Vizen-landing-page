@@ -5,6 +5,7 @@ export const landingContent = {
     contact: 'https://t.me/vizenoptickh',
     instagram: 'https://www.instagram.com/vizenoptickh/',
     tiktok: 'https://www.tiktok.com/@vizen.optic',
+    facebook: 'https://www.facebook.com/vizenoptickh',
     map: 'https://maps.google.com/?q=Vizen+Optic+Phnom+Penh',
   },
   hero: {
@@ -34,11 +35,12 @@ export const landingContent = {
     ],
   },
   social: {
-    description: 'Find Vizen Optic on TikTok and Instagram. Follow along, share your favorite frames, and tag us in your look.',
+    description: 'Find Vizen Optic on TikTok, Instagram, and Facebook. Follow along, share your favorite frames, and tag us in your look.',
     handle: '@vizen.optic',
     instagramHandle: '@vizenoptickh',
-    image: 'https://images.unsplash.com/photo-1531058020387-3be344556be6?auto=format&fit=crop&w=1000&q=85',
-    imageAlt: 'A colorful eyewear and lifestyle collage',
+    facebookHandle: '@vizenoptickh',
+    image: '/images/social-eyewear-share.png',
+    imageAlt: 'Customer sharing an eyewear try-on photo in a social media post',
   },
   visit: {
     storeName: 'Vizen Optic',

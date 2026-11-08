@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ArrowUpRight, Instagram, MapPin, Menu, MessageCircle, Music2, Phone, Sparkles, X } from 'lucide-react';
+import { ArrowUpRight, Facebook, Instagram, MapPin, Menu, MessageCircle, Music2, Phone, Sparkles, X } from 'lucide-react';
 import { landingContent as content } from './data/landingContent';
 import { analyticsEnabled, trackConversion } from './analytics';
 
@@ -86,9 +86,10 @@ export default function App() {
             <div className="social-links">
               <a className="social-link" href={content.links.tiktok} target="_blank" rel="noreferrer"><Music2 size={18} /> TikTok · {content.social.handle} <ArrowUpRight size={16} /></a>
               <a className="social-link" href={content.links.instagram} target="_blank" rel="noreferrer"><Instagram size={18} /> Instagram · {content.social.instagramHandle} <ArrowUpRight size={16} /></a>
+              <a className="social-link" href={content.links.facebook} target="_blank" rel="noreferrer"><Facebook size={18} /> Facebook · {content.social.facebookHandle} <ArrowUpRight size={16} /></a>
             </div>
           </div>
-          <a className="social-image" href={content.links.instagram} target="_blank" rel="noreferrer">
+          <a className="social-image" href={content.links.facebook} target="_blank" rel="noreferrer">
             <img src={content.social.image} alt={content.social.imageAlt} loading="lazy" />
             <span>Follow Vizen Optic <ArrowUpRight size={16} /></span>
           </a>
@@ -97,7 +98,7 @@ export default function App() {
         <section className="visit-section" id="visit"><div className="visit-image"><img src={content.visit.image} alt={content.visit.imageAlt} loading="lazy" /><span className="eyebrow">Come say hello</span></div><div className="visit-copy"><span className="eyebrow">Your neighborhood eyewear stop</span><h2>Good frames.<br /><em>Good people.</em></h2><p>{content.visit.description}</p><div className="address"><MapPin size={18} /><div><strong>{content.visit.storeName}</strong><span>{content.visit.address}</span></div></div><div className="visit-actions"><a className="button button-dark" href={content.links.map} target="_blank" rel="noreferrer">Get directions <ArrowUpRight size={17} /></a><a className="call-link" href={`tel:${content.visit.phone}`} onClick={() => trackConversion('visit_phone', 'Phone')}><Phone size={16} /> {content.visit.phone}</a></div></div></section>
       </main>
 
-      <footer className="site-footer"><a className="brand footer-brand" href="#top"><span>VIZEN OPTIC</span><small>PHNOM PENH · CAMBODIA</small></a><p>{analyticsEnabled ? 'Google Analytics measures page views and contact clicks.' : content.footer}</p><div className="footer-links"><a href={content.links.instagram} aria-label="Instagram"><Instagram size={18} /></a><ContactLink location="footer" className="footer-message" aria-label="Message us"><MessageCircle size={18} /></ContactLink><a href="#top">Back to top ↑</a></div></footer>
+      <footer className="site-footer"><a className="brand footer-brand" href="#top"><span>VIZEN OPTIC</span><small>PHNOM PENH · CAMBODIA</small></a><p>{analyticsEnabled ? 'Google Analytics measures page views and contact clicks.' : content.footer}</p><div className="footer-links"><a href={content.links.instagram} aria-label="Instagram"><Instagram size={18} /></a><a href={content.links.facebook} aria-label="Facebook"><Facebook size={18} /></a><ContactLink location="footer" className="footer-message" aria-label="Message us"><MessageCircle size={18} /></ContactLink><a href="#top">Back to top ↑</a></div></footer>
     </div>
   );
 }

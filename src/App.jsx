@@ -65,15 +65,17 @@ export default function App() {
         </section>
 
         <section className="season-note">
-          <div className="season-content">
-            <span className="eyebrow">Free gift with a qualifying purchase</span>
-            <h2>{content.promo.title}</h2>
-            <p>{content.promo.description}</p>
-            <div className="season-gallery">
-              {content.promo.images.map((image) => <img key={image.src} src={image.src} alt={image.alt} loading="lazy" />)}
+          <div className="season-header">
+            <div className="season-copy">
+              <span className="eyebrow">Free gift with a qualifying purchase</span>
+              <h2>{content.promo.title}</h2>
+              <p>{content.promo.description}</p>
             </div>
+            <ContactLink className="button button-dark" location="seasonal_offer">Ask us on Telegram <ArrowUpRight size={17} /></ContactLink>
           </div>
-          <ContactLink className="button button-dark" location="seasonal_offer">Ask us on Telegram <ArrowUpRight size={17} /></ContactLink>
+          <div className="season-gallery">
+            {content.promo.images.map((image) => <img key={image.src} src={image.src} alt={image.alt} loading="lazy" />)}
+          </div>
         </section>
 
         <section className="social-section" id="about">

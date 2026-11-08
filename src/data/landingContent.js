@@ -13,8 +13,8 @@ export const landingContent = {
     accent: 'something new.',
     description: 'Glasses · Frames · Lenses. Discover the perfect pair for your unique lifestyle.',
     note: 'A good fit starts with a good conversation.',
-    image: 'https://images.unsplash.com/photo-1574258495973-f010dfbb5371?auto=format&fit=crop&w=1500&q=85',
-    imageAlt: 'Woman trying on glasses in natural light',
+    image: '/images/hero-store-interior.png',
+    imageAlt: 'Vizen Optic store interior and eyewear displays',
   },
   collection: { intro: 'From a little playful to beautifully understated, explore a few styles we think you’ll love.' },
   frames: [

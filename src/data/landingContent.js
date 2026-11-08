@@ -28,8 +28,9 @@ export const landingContent = {
     cta: 'Ask us on Telegram',
   },
   social: {
-    description: 'Follow Vizen Optic for glasses, frames, lenses, and eyewear inspiration.',
+    description: 'Find Vizen Optic on TikTok and Instagram. Follow along, share your favorite frames, and tag us in your look.',
     handle: '@eyezen.optic',
+    instagramHandle: '@vizenoptic.kh',
     image: 'https://images.unsplash.com/photo-1531058020387-3be344556be6?auto=format&fit=crop&w=1000&q=85',
     imageAlt: 'A colorful eyewear and lifestyle collage',
   },

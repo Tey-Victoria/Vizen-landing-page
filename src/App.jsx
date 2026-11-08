@@ -66,7 +66,21 @@ export default function App() {
 
         <section className="season-note"><div><span className="eyebrow">Free gift with a qualifying purchase</span><h2>{content.promo.title}</h2><p>{content.promo.description}</p></div><ContactLink className="button button-dark" location="seasonal_offer">Ask us on Telegram <ArrowUpRight size={17} /></ContactLink></section>
 
-        <section className="social-section" id="about"><div className="social-copy"><span className="eyebrow">Out in the world</span><h2>Snap, share,<br /><em>see you there.</em></h2><p>{content.social.description}</p><a className="social-link" href={content.links.tiktok} target="_blank" rel="noreferrer"><Music2 size={18} /> {content.social.handle} <ArrowUpRight size={16} /></a></div><a className="social-image" href={content.links.tiktok} target="_blank" rel="noreferrer"><img src={content.social.image} alt={content.social.imageAlt} loading="lazy" /><span>Follow on TikTok <ArrowUpRight size={16} /></span></a></section>
+        <section className="social-section" id="about">
+          <div className="social-copy">
+            <span className="eyebrow">Out in the world</span>
+            <h2>Snap, share,<br /><em>see you there.</em></h2>
+            <p>{content.social.description}</p>
+            <div className="social-links">
+              <a className="social-link" href={content.links.tiktok} target="_blank" rel="noreferrer"><Music2 size={18} /> TikTok · {content.social.handle} <ArrowUpRight size={16} /></a>
+              <a className="social-link" href={content.links.instagram} target="_blank" rel="noreferrer"><Instagram size={18} /> Instagram · {content.social.instagramHandle} <ArrowUpRight size={16} /></a>
+            </div>
+          </div>
+          <a className="social-image" href={content.links.instagram} target="_blank" rel="noreferrer">
+            <img src={content.social.image} alt={content.social.imageAlt} loading="lazy" />
+            <span>Follow Vizen Optic <ArrowUpRight size={16} /></span>
+          </a>
+        </section>
 
         <section className="visit-section" id="visit"><div className="visit-image"><img src={content.visit.image} alt={content.visit.imageAlt} loading="lazy" /><span className="eyebrow">Come say hello</span></div><div className="visit-copy"><span className="eyebrow">Your neighborhood eyewear stop</span><h2>Good frames.<br /><em>Good people.</em></h2><p>{content.visit.description}</p><div className="address"><MapPin size={18} /><div><strong>{content.visit.storeName}</strong><span>{content.visit.address}</span></div></div><div className="visit-actions"><a className="button button-dark" href={content.links.map} target="_blank" rel="noreferrer">Get directions <ArrowUpRight size={17} /></a><a className="call-link" href={`tel:${content.visit.phone}`} onClick={() => trackConversion('visit_phone', 'Phone')}><Phone size={16} /> {content.visit.phone}</a></div></div></section>
       </main>

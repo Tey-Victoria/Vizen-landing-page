@@ -20,7 +20,7 @@ export const landingContent = {
   frames: [
     { name: 'Gold Cat-Eye Frames', category: 'A little polished', description: 'A graceful shape with a bit of personality. Made for days when you want your frames to do the talking.', fit: 'Medium · Large', image: '/images/gold-cat-eye-frames.jpg', imageAlt: 'Cat-eye eyeglasses displayed on a tray in the store' },
     { name: 'Oval Charm Frames', category: 'Easy everyday', description: 'A clean, simple silhouette that slips into your everyday rotation with ease.', fit: 'Medium · Large', image: '/images/oval-charm-frames.jpg', imageAlt: 'Black oval eyeglasses displayed on a counter' },
-    { name: 'Ruby Round Frames', category: 'A timeless favorite', description: 'Round, lightweight, and comfortable. A familiar favorite with a little extra character.', fit: 'Medium · Large', image: 'https://images.unsplash.com/photo-1508296695146-257a814070b4?auto=format&fit=crop&w=900&q=80', imageAlt: 'Round eyeglasses in a warm setting' },
+    { name: 'Ruby Round Frames', category: 'A timeless favorite', description: 'Round, lightweight, and comfortable. A familiar favorite with a little extra character.', fit: 'Medium · Large', image: '/images/ruby-round-frames.jpg', imageAlt: 'Round black eyeglasses held in the store' },
   ],
   promo: {
     title: 'Spend $35 or more and receive free sunglasses.',

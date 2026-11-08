@@ -39,8 +39,8 @@ export const landingContent = {
     description: 'Customer feedback and shared moments with Vizen Optic.',
     images: [
       { src: '/images/feedback-customer-1.png', alt: 'Customer chat screenshot in Khmer with delivery feedback' },
-      { src: '/images/feedback-customer-2.png', alt: 'Customer chat screenshot with a positive message for Vizen Optic' },
-      { src: '/images/feedback-customer-3.png', alt: 'Customer chat screenshot showing eyewear delivery and a thank-you' },
+      { src: '/images/feedback-customer-2.jpg', alt: 'Customer chat screenshot with a positive message for Vizen Optic' },
+      { src: '/images/feedback-customer-3.jpg', alt: 'Customer chat screenshot showing eyewear delivery and a thank-you' },
     ],
   },
   social: {

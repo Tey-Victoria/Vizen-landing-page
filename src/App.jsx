@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ArrowUpRight, Facebook, Instagram, MapPin, Menu, MessageCircle, Music2, Phone, Sparkles, X } from 'lucide-react';
+import { ArrowUpRight, Facebook, Instagram, MapPin, Menu, MessageCircle, Music2, Phone, Send, Sparkles, X } from 'lucide-react';
 import { landingContent as content } from './data/landingContent';
 import { analyticsEnabled, trackConversion } from './analytics';
 
@@ -108,7 +108,7 @@ export default function App() {
         <section className="visit-section" id="visit"><div className="visit-copy"><span className="eyebrow">Your neighborhood eyewear stop</span><h2>Good frames.<br /><em>Good people.</em></h2><p>{content.visit.description}</p><div className="address"><MapPin size={18} /><div><strong>{content.visit.storeName}</strong><span>{content.visit.address}</span></div></div><div className="visit-actions"><a className="call-link" href={`tel:${content.visit.phone}`} onClick={() => trackConversion('visit_phone', 'Phone')}><Phone size={16} /> {content.visit.phone}</a><div className="location-links">{content.links.locations.map((location) => <a key={location.name} className="button button-dark" href={location.url} target="_blank" rel="noreferrer">Directions · {location.name} <ArrowUpRight size={17} /></a>)}</div></div></div></section>
       </main>
 
-      <footer className="site-footer"><a className="brand footer-brand" href="#top"><span>VIZEN OPTIC</span><small>PHNOM PENH · CAMBODIA</small></a><div className="footer-links"><a href={content.links.tiktok} aria-label="TikTok" target="_blank" rel="noreferrer"><Music2 size={18} /></a><a href={content.links.instagram} aria-label="Instagram" target="_blank" rel="noreferrer"><Instagram size={18} /></a><a href={content.links.facebook} aria-label="Facebook" target="_blank" rel="noreferrer"><Facebook size={18} /></a><a href="#top">Back to top ↑</a></div></footer>
+      <footer className="site-footer"><a className="brand footer-brand" href="#top"><span>VIZEN OPTIC</span><small>PHNOM PENH · CAMBODIA</small></a><div className="footer-links"><a href={content.links.tiktok} aria-label="TikTok" target="_blank" rel="noreferrer"><Music2 size={18} /></a><a href={content.links.instagram} aria-label="Instagram" target="_blank" rel="noreferrer"><Instagram size={18} /></a><a href={content.links.facebook} aria-label="Facebook" target="_blank" rel="noreferrer"><Facebook size={18} /></a><a href={content.links.contact} aria-label="Telegram" target="_blank" rel="noreferrer"><Send size={18} /></a><a href="#top">Back to top ↑</a></div></footer>
     </div>
   );
 }
